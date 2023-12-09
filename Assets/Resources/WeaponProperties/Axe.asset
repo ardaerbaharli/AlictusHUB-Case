@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08b4c6d8dc3446f38562a48ea115b310, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  WeaponType: 0
+  MaxLevel: 5
+  TargetBaseWeaponProperty:
+    WeaponType: 2
+    UpgradeData:
+    - UpgradeDescription: Damage
+      Damage: 2
+      Speed: 2
+      Range: 2
+      AttackInterval: 2
+  AreaWeaponProperty:
+    WeaponType: 0
+    WeaponPrefab: {fileID: 0}
+    UpgradeData: []
